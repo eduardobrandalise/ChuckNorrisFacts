@@ -8,6 +8,11 @@
 
 import Foundation
 
+struct NeighboringPositions {
+    var hasPrevious: Bool
+    var hasNext: Bool
+}
+
 struct Fact: Decodable {
     var icon_url: String
     var url: String
